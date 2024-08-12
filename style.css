@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0b1e3c;
+}
+
+.logo{
+    float:inline-start;
+    position: absolute;
+    padding: 50px;
+    display: inline;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .logo img{
+        width: 100px;
+        height: auto;
+        padding: 0px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .logo img{
+        width: 75px;
+        /* align-items: last baseline; */
+    }
+}
+
+.doctorimage{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .doctorimage img{
+        width: 250px;
+        height: auto;
+        padding: 0px;
+        display: flex;
+        position: absolute;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .doctorimage img{
+        width: 250px;
+        height: auto;
+        display: flex;
+        position: absolute;
+        left: 30%;
+        /* align-items: center; */
+    }
+}
+
+.head{
+    h1{
+        color: rgb(142, 163, 205);
+        display: flex;
+        position: absolute;
+        left: 40%;
+        /* display: flex;
+        /* flex-direction: row; */
+        /*justify-content: center; */
+    }
+    p{
+        color: rgb(121, 143, 188);
+        position: absolute;
+        left: 43%;
+        top: 16%;
+        font-size:large;
+        display: block;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .head{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .head{
+        h1{
+            align-items: center;
+            font-size: medium;
+
+        }
+        p{
+            font-size: small;
+            top: 15%;
+        } 
+        
+    }
+}
+
+.intro{
+    position: absolute;
+    /* left: 200px; */
+    top: 600px;
+
+    #s1{
+        color:rgb(142, 163, 205);
+    }
+
+    #s2{
+        color: rgb(142, 163, 205);;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #s1{
+        font-size: medium;
+    }
+
+    #s2{
+        font-size: medium;
+    }
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 650px;
+    
+    .link1{
+        display: inline block;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: white;
+        background-color: #2862ce;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        }
+
+    .link2{
+        display: inline block;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: white;
+        background-color: #2862ce;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+    }  
+    
+    .link3{
+        display: inline block;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: white;
+        background-color: #2862ce;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .link4{
+        display: inline block;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: white;
+        background-color: #2862ce;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .container{
+        padding: 3px;
+
+        a{
+            font-size: x-small;
+        }
+
+        link1{
+            padding: 1px 1px;
+        }
+    }
+}
+
+@media screen and (max-width: 370px){
+    .container{
+        a{
+            font-size:xx-small;
+        }
+
+        link1{
+            padding: 1px 1px;
+        }
+    }
+}
+
+
+
+.image{
+    
+    display: inline;
+}
+
+
+.sm a{
+    background-color: rgb(0 128 0 / 25%);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+.sm a:hover{
+    background-color: rgb(0 128 30 / 25%);
+}
+.sm a i{
+    margin: 5px;
+}
+
+.ig{
+    color: #dd2a7b;
+}
+.fb{
+    color: #0165E1;
+}
+.li{
+    color: #0a66c2;
+}
